@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="luoboTileMap2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="luoboTileMap2.png" width="128" height="256"/>
+ </tileset>
+ <layer name="block" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYwEWBXk4sYqxAzATFLCTq5URj43IbMXqxqaFULwcDwm8wzIYmz4ZF30AAAL+YALI=
+  </data>
+ </layer>
+ <objectgroup name="object" width="15" height="10">
+  <object name="obj1" x="80" y="80"/>
+  <object name="obj2" x="80" y="240"/>
+  <object name="obj3" x="240" y="240"/>
+  <object name="obj4" x="240" y="112"/>
+  <object name="obj5" x="336" y="112"/>
+  <object name="obj6" x="336" y="240"/>
+  <object name="obj7" x="368" y="240"/>
+  <object name="obj8" x="368" y="144"/>
+ </objectgroup>
+</map>

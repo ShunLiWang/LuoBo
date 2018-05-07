@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" nextobjectid="19">
+ <tileset firstgid="1" name="luoboTilemap" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="9" columns="3">
+  <image source="luoboTilemap.png" width="128" height="128"/>
+ </tileset>
+ <layer name="block" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4wEaBelYS9bLiYIMAOxCzIGFGEvSSwmdGs4cJTS0h+aEEAH9oAGs=
+  </data>
+ </layer>
+ <objectgroup name="object" visible="0">
+  <object id="1" name="obj1" x="48" y="74"/>
+  <object id="2" name="obj2" x="48" y="208"/>
+  <object id="3" name="obj3" x="176" y="208"/>
+  <object id="4" name="obj4" x="176" y="144"/>
+  <object id="5" name="obj5" x="304" y="144"/>
+  <object id="6" name="obj6" x="304" y="208"/>
+  <object id="7" name="obj7" x="432" y="208"/>
+  <object id="8" name="obj8" x="432" y="74"/>
+ </objectgroup>
+ <objectgroup name="objects" visible="0">
+  <object id="9" name="obj1" x="32" y="64" width="32" height="128"/>
+  <object id="10" name="obj2" x="32" y="192" width="160" height="32"/>
+  <object id="11" name="obj3" x="160" y="128" width="32" height="64"/>
+  <object id="12" name="obj4" x="192" y="128" width="128" height="32"/>
+  <object id="13" name="obj5" x="288" y="160" width="32" height="64"/>
+  <object id="14" name="obj6" x="320" y="192" width="128" height="32"/>
+  <object id="15" name="obj7" x="416" y="64" width="32" height="128"/>
+ </objectgroup>
+ <objectgroup name="clouds" opacity="0.26">
+  <object id="16" name="cloud1" x="128" y="96"/>
+  <object id="17" name="cloud2" x="224" y="96"/>
+  <object id="18" name="cloud3" x="320" y="96"/>
+ </objectgroup>
+</map>
